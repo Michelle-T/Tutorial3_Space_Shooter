@@ -39,10 +39,6 @@ public class PlayerController1 : MonoBehaviour
             Instantiate(shot, shotSpawn.position, shotSpawn.rotation); //as GameObject;
             audio.Play();
         }
-
-        if (Input.GetKey("escape"))
-            Application.Quit();
-
     }
 
     private void FixedUpdate()
